@@ -1,5 +1,5 @@
-var APP_URL = 'https://yourapp.form.io';
-var API_URL = 'https://api.form.io';
+var APP_URL = 'http://35.161.117.208:3005';
+var API_URL = 'http://35.161.117.208:3005';
 
 // Parse query string
 var query = {};

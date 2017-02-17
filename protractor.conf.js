@@ -13,7 +13,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'http://35.161.117.208:3000',
 
   // Spec patterns are relative to the current working directly when
   // protractor is called.

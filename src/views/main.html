@@ -1,14 +1,10 @@
 <div class="row">
   <div class="col-sm-12">
-    <h1>Forms <a ng-if="isAdministrator" style="font-size: 0.5em;" href="http://help.form.io/userguide/#forms" target="_blank"><i
-      class="glyphicon glyphicon-question-sign "></i></a></h1>
+<!--    <h1> <a ng-if="isAdministrator" style="font-size: 0.5em;" ><i
+      class="glyphicon glyphicon-question-sign "></i></a></h1>-->
     <div class="well" ng-if="isAdministrator">
-      <p>Below are all the forms available for your application. You can either edit an existing form, or create a new one
-      by click on the <strong>Create New Form</strong> button.</p>
-      <p>
-        If your users aren't seeing the forms, be sure to give them permissions on the form's Permissions tab. A typical use case is to give the "Authenticated" role the "Create Own Submission" and "Read Own Submission" permissions.
-      </p>
+      <p>以下是现有应用，你可以创建新应用.
     </div>
-    <div ng-include="'formio-helper/formbuilder/index.html'"></div>
+	 <div ng-include="'formio-helper/formbuilder/index.html'"></div>
   </div>
 </div>

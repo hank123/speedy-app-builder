@@ -7,6 +7,8 @@
       'ui.bootstrap',
       'ui.bootstrap.accordion',
       'ui.bootstrap.alert',
+      'pascalprecht.translate',
+	'ngCookies',
       'formio',
       'ngFormioHelper',
       'ngFormBuilder',

@@ -18,8 +18,12 @@
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'views/main.html',
-        controller: FormIndexController
+     //  views:{
+      //	"forms":{
+		 templateUrl: 'views/main.html',
+	        controller: FormIndexController
+	//	}
+//	}
       })
       .state('users', {
         abstract: true,

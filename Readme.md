@@ -21,7 +21,7 @@ You can easily get this application running by typing the following in your comm
 replace following IP address with your own IP
 var APP_URL = 'http://35.161.117.208:3005';
 var API_URL = 'http://35.161.117.208:3005';
-3.3 edit protractor.conf.js
+3.2 edit protractor.conf.js
 replace baseUrl ip address with your own IP
 baseUrl: 'http://35.161.117.208:3000'
 
